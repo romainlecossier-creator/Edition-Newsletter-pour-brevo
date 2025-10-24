@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { BoldIcon, ItalicIcon, UnderlineIcon, ListBulletedIcon, ListNumberedIcon, EnterKeyIcon } from './icons';
+import { BoldIcon, ItalicIcon, UnderlineIcon, ListBulletedIcon, ListNumberedIcon, EnterKeyIcon } from './icons.tsx';
 
 interface RichTextEditorProps {
   label: string;

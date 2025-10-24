@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { SpecialBlock } from '../types';
-import { ChevronDownIcon, ChevronUpIcon, EyeIcon, EyeOffIcon, TrashIcon } from './icons';
+import { SpecialBlock } from '../types.ts';
+import { ChevronDownIcon, ChevronUpIcon, EyeIcon, EyeOffIcon, TrashIcon } from './icons.tsx';
 
 interface SpecialBlockEditorProps {
   block: SpecialBlock;

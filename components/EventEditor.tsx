@@ -1,8 +1,7 @@
-
 import React, { useState, useEffect } from 'react';
-import { NewsletterEvent } from '../types';
-import RichTextEditor from './RichTextEditor';
-import { ChevronDownIcon, ChevronUpIcon, TrashIcon, EyeIcon, EyeOffIcon, DragHandleIcon } from './icons';
+import { NewsletterEvent } from '../types.ts';
+import RichTextEditor from './RichTextEditor.tsx';
+import { ChevronDownIcon, ChevronUpIcon, TrashIcon, EyeIcon, EyeOffIcon, DragHandleIcon } from './icons.tsx';
 
 interface EventEditorProps {
   event: NewsletterEvent;

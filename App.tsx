@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { EditorPanel } from './components/EditorPanel';
-import { PreviewPanel } from './components/PreviewPanel';
-import { CsvImportModal } from './components/CsvImportModal';
-import { NewsletterEvent, SpecialBlock } from './types';
-import { parseNewsletter, generateNewsletter, parseCsvToEvents } from './services/newsletterParser';
-import { INITIAL_NEWSLETTER_HTML, NEW_SPECIAL_BLOCK_TEMPLATE } from './constants';
+import { EditorPanel } from './components/EditorPanel.tsx';
+import { PreviewPanel } from './components/PreviewPanel.tsx';
+import { CsvImportModal } from './components/CsvImportModal.tsx';
+import { NewsletterEvent, SpecialBlock } from './types.ts';
+import { parseNewsletter, generateNewsletter, parseCsvToEvents } from './services/newsletterParser.ts';
+import { INITIAL_NEWSLETTER_HTML, NEW_SPECIAL_BLOCK_TEMPLATE } from './constants.ts';
 
 function App() {
   const [events, setEvents] = useState<NewsletterEvent[]>([]);

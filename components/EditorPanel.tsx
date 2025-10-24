@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
-import { NewsletterEvent, SpecialBlock } from '../types';
-import { EventEditor } from './EventEditor';
-import { SpecialBlockEditor } from './SpecialBlockEditor';
-import { PlusIcon, ClipboardIcon, CheckIcon, CodeIcon, UploadIcon, PaintBrushIcon } from './icons';
+import { NewsletterEvent, SpecialBlock } from '../types.ts';
+import { EventEditor } from './EventEditor.tsx';
+import { SpecialBlockEditor } from './SpecialBlockEditor.tsx';
+import { PlusIcon, ClipboardIcon, CheckIcon, CodeIcon, UploadIcon, PaintBrushIcon } from './icons.tsx';
 
 interface EditorPanelProps {
   events: NewsletterEvent[];

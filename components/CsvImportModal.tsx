@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { NewsletterEvent } from '../types';
+import { NewsletterEvent } from '../types.ts';
 
 interface CsvImportModalProps {
   isOpen: boolean;

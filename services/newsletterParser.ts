@@ -1,4 +1,4 @@
-import { NewsletterEvent, SpecialBlock } from '../types';
+import { NewsletterEvent, SpecialBlock } from '../types.ts';
 
 const isHeaderTable = (element: Element): boolean => {
     return element.classList.contains('r33-o') && element.querySelector('h3') !== null;
