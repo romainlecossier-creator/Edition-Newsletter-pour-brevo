@@ -18,8 +18,23 @@ Un "dépôt" est simplement un projet sur GitHub. Il contiendra tous les fichier
 2.  Cliquez sur l'icône **`+`** en haut à droite, puis sur **`New repository`**.
 3.  **Nom du dépôt (`Repository name`) :** Choisissez un nom simple, par exemple `editeur-newsletter`.
 4.  **Description (optionnel) :** Ajoutez une courte description, comme "Éditeur HTML pour les newsletters de Brevo".
-5.  **Public/Private :** Cochez **`Public`**. GitHub Pages pour les comptes gratuits ne fonctionne que sur les dépôts publics.
+5.  **Public/Private :** Cochez **`Public`**. **Important :** C'est cette option qui rend GitHub Pages gratuit. Si vous le mettez en privé, le déploiement ne fonctionnera pas (ou nécessitera un compte payant).
 6.  Cliquez sur le bouton vert **`Create repository`**.
+
+---
+
+### Dépannage : Que faire si mon dépôt est déjà créé et en "privé" ?
+
+Pas de panique ! Vous pouvez changer sa visibilité très facilement :
+
+1.  Allez sur la page principale de votre dépôt sur GitHub.
+2.  Cliquez sur l'onglet **`Settings`**.
+3.  Tout en bas de la page des options générales (`General`), vous trouverez la **"Danger Zone"** (zone de danger).
+4.  La dernière option est **`Change repository visibility`**. Cliquez sur le bouton `Change visibility`.
+5.  Sélectionnez **`Change to public`**.
+6.  GitHub vous demandera de confirmer en tapant le nom complet de votre dépôt (par exemple `VOTRE_NOM_UTILISATEUR/editeur-newsletter`). Faites-le et validez.
+
+Votre dépôt est maintenant public, et vous pouvez continuer le guide !
 
 ---
 
